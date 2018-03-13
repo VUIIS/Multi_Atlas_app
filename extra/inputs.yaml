@@ -1,0 +1,4 @@
+---
+root:
+- INPUTS:
+    - T1.nii.gz // Raw T1 nifti image
