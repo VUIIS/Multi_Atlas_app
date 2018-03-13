@@ -1,2 +1,2 @@
 Bootstrap: docker
-From: MASILab/Multi_Atlas
+From: vuiiscci/multi_atlas
