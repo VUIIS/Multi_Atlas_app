@@ -18,16 +18,14 @@ NOTE that you must have full-multi-atlas directory which contains atlases.
 For docker:
 ```
 sudo docker run --rm \
---runtime=nvidia \
 -v $(pwd)/INPUTS/:/INPUTS/ \
 -v $(pwd)/OUTPUTS:/OUTPUTS/ \
 --user $(id -u):$(id -g) \
-vuiiscci/Multi_Atlas
+vuiiscci/multi_atlas
 ```
 For singularity:
 ```
 singularity run -e \
---nv \
 -B INPUTS/:/INPUTS \
 -B OUTPUTS/:/OUTPUTS \
 shub://vuiiscci/Multi_Atlas_app
