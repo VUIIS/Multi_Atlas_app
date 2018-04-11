@@ -21,7 +21,7 @@ done
 
 # Build docker
 cd ..
-sudo docker build --rm -t vuiiscci/multi_atlas .
+sudo docker build --rm -t vuiiscci/multi_atlas:latest .
 
 # Push docker - note this only affects latest tag. Must retag and push if you want to give a specific tag
-sudo docker push vuiiscci/multi_atlas
+sudo docker push vuiiscci/multi_atlas:latest
